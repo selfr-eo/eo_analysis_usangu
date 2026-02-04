@@ -28,6 +28,14 @@ Known issues:
 
 ## Getting Started
 
+To get started wih this repo on yout local computer, type this in your terminal:
+
+```sh
+git clone https://github.com/selfr-eo/eo_analysis_usangu.git
+cd eo_analysis_usangu
+```
+Or open up the folder with GitHub Desktop.
+
 To install packages for running pixel cloud processing scripts copy the following into your terminal:
 
 ```sh
@@ -35,6 +43,9 @@ mamba env create -f environment.yml
 mamba activate hydroeo
 ```
 
-To install packages needed to download pixel cloud data: (NOTE: this is a separate environment than the previous, due to dependency clashes)
+To install packages needed to download pixel cloud data with uv: (NOTE: this is a separate environment than the previous, due to dependency clashes with geospatial packages)
 
-(TODO)
+```sh
+uv venv
+uv sync
+```
