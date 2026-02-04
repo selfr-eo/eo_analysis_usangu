@@ -43,9 +43,21 @@ mamba env create -f environment.yml
 mamba activate hydroeo
 ```
 
-To install packages needed to download pixel cloud data with uv: (NOTE: this is a separate environment than the previous, due to dependency clashes with geospatial packages)
+To install packages needed to **download** pixel cloud data with uv: (NOTE: this is a separate environment than the previous, due to dependency clashes with geospatial packages)
 
 ```sh
 uv venv
 uv sync
+```
+Then to activate the environment:
+
+Windows (PowerShell)
+```sh
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\.venv\Scripts\Activate.ps1
+```
+
+macOS/Linux:
+```sh
+source .venv/bin/activate
 ```
