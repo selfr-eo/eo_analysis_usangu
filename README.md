@@ -1,20 +1,21 @@
-# my_library: Template Python repository
+# EO analysis of Usangu wetlands
 
-This repository serves as a template for creating a Python library
+Code and notebooks for eo analysis of the hydrology of the Usangu wetlands in Tanzania. Current repo functions include:
 
-## How do I use this?
+**SWOT:**
+* Downloading SWOT pixel cloud data
+* Processing SWOT pixel cloud data to 100 m raster format
+* Creating weekly or monthly aggregates of pixel cloud rasters
+* Creating occurance product from pixel cloud raster
 
-1. Create a new repository in GitHub with this repo as a starting point
-    ![](images/new_repo.png)
+**Sentinel-2:**
+* Batch downloading S2 optical imagery in selected AOIs
 
-2. Change all occurences of `my_library` to match the name of your new library
+**PALSAR-2:**
+* Comparison of PALSAR2 backscatter in a flooded forest with rainfall runoff model output and nearest in situ river gauge.
 
-3. Consider if the [license](LICENSE) should be modified.
-
-
-## Additional resources
-
-If you're interested in learning more about best practices for developing Python packages, check out the following resources:
-
-- [Python Package Development at DHI](https://dhi.github.io/python-package-development/)
-- [Scientific Python Library Development Guide](https://learn.scientific-python.org/development/)
+Interesting questions/investigations:
+* How do spatial patterns in SWOT flooded areas relate to methane emissions patterns as observed by Sentinel-5?
+* Do large scale burn events in the dry season have an effect on Sentinel-5 emissions observations?
+* Seasonal and interannual variability: Is the hydrology of Usangu changing? Visisble from SWOT? Other radar satellites? GRACE? 
+* Are there any distict spatial patterns observable with EO?
