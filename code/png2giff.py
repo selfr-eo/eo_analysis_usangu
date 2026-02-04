@@ -6,6 +6,8 @@ import os
 from datetime import datetime
 import pandas as pd
 
+# Takes exported monthly pngs and creates gifs with full timeline
+
 base_path = r"C:\Users\safr\Documents\github\eo_analysis_usangu\data\S2_temporal"
 folders = ['b1','b2','b3','b4','b5','b6','b7','b8']
 

@@ -9,6 +9,9 @@ from collections import defaultdict
 import os
 import glob
 
+
+# Converts geotiffs to pngs and creates monthly median composites
+
 def extract_year_month(fname):
     """
     Extract YYYY, MM from filenames like:
