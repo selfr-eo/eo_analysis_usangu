@@ -1,0 +1,18 @@
+name: hydroeo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - geopandas
+  - earthaccess
+  - shapely
+  - xarray
+  - rioxarray
+  - netcdf4
+  - h5py
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+prefix: C:\Users\safr\.conda\envs\hydroeo

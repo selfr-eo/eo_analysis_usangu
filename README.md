@@ -24,3 +24,17 @@ Known issues:
 * 'Shadow rivers' in SWOT pixel cloud raster - caused by geolocation errors
 * Data loss in low coherence zones (near NADIR)
 * Underestimation of flood extent underneath vegetation, most prominant in the permanant swamp (central part of Eastern Usangu wetlands). Unknown how much this region is actually flooded. 
+
+
+## Getting Started
+
+To install packages for running pixel cloud processing scripts copy the following into your terminal:
+
+```sh
+mamba env create -f environment.yml
+mamba activate hydroeo
+```
+
+To install packages needed to download pixel cloud data: (NOTE: this is a separate environment than the previous, due to dependency clashes)
+
+(TODO)
