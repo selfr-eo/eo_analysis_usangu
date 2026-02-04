@@ -19,3 +19,8 @@ Interesting questions/investigations:
 * Do large scale burn events in the dry season have an effect on Sentinel-5 emissions observations?
 * Seasonal and interannual variability: Is the hydrology of Usangu changing? Visisble from SWOT? Other radar satellites? GRACE? 
 * Are there any distict spatial patterns observable with EO?
+
+Known issues:
+* 'Shadow rivers' in SWOT pixel cloud raster - caused by geolocation errors
+* Data loss in low coherence zones (near NADIR)
+* Underestimation of flood extent underneath vegetation, most prominant in the permanant swamp (central part of Eastern Usangu wetlands). Unknown how much this region is actually flooded. 
