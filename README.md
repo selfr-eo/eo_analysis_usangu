@@ -47,7 +47,7 @@ mamba activate hydroeo
 ```
 
 ### uv environment
-To install packages needed to **download** pixel cloud data with uv: (NOTE: this is a separate environment than the previous, due to dependency clashes with geospatial packages)
+To install packages needed to **download** pixel cloud data with uv:
 
 ```sh
 uv venv
