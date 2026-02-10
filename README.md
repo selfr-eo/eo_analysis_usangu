@@ -36,6 +36,9 @@ cd eo_analysis_usangu
 ```
 Or open up the folder with GitHub Desktop.
 
+There are 2 separate environments (one conda, one uv) used within this repository, for different functions, due to dependency clashes. For most activities, you will use the conda environment. However, if you wish to download SWOT data, the uv environment should be utilized. Follow the steps below for setting up each on your local computer.
+
+### Conda environment
 To install packages for running pixel cloud processing scripts copy the following into your terminal:
 
 ```sh
@@ -43,6 +46,7 @@ mamba env create -f environment.yml
 mamba activate hydroeo
 ```
 
+### uv environment
 To install packages needed to **download** pixel cloud data with uv: (NOTE: this is a separate environment than the previous, due to dependency clashes with geospatial packages)
 
 ```sh
