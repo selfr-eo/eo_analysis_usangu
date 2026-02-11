@@ -1,5 +1,9 @@
 # Repo specific
 data/*
+!data/shapefiles/wetland_fans_domain_37S*
+!data/shapefiles/height_TS_locations*
+!data/shapefiles/river_network_manual*
+
 
 # PyCharm
 .idea/
